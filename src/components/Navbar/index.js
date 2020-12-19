@@ -9,10 +9,10 @@ export default function WebNavbar() {
                 <nav className="navbar navbar-light bg-light justify-content-center web-nav">
                     <ul className="nav">
                         <li className="nav-item">
-                            <a className="nav-link " href="/home">HOME</a>
+                            <NavLink className="nav-link" to="/home">HOME</NavLink>                        
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/location">LOCATION</a>
+                            <NavLink className="nav-link" to="/location">LOCATION</NavLink>                       
                         </li>
                     </ul>
                 </nav>
