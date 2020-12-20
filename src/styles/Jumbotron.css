@@ -1,5 +1,5 @@
 
-.junmbotron {
+.jumbotron {
     justify-content: center;
     text-align: center;
     background-image: url("../images/coding.jpeg");
@@ -7,12 +7,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    color: white;
     width: 100%;
     padding: 250px 0 200px 0;
 }
 
-.junmbotron .display-4 {
+.jumbotron .display-4 {
     font-family: 'Playfair Display', serif;
     font-size: 5rem;
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.jumbotron button{
+    border-color: white;
+    color: white;
+}
+
+.jumbotron button:hover{
+    background-color:rgb(179, 158, 101) !important;
 }

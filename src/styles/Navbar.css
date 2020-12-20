@@ -1,8 +1,27 @@
+body {
+    background-color: rgb(255, 255, 255) !important;
+}
 .web-nav {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.75rem;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.363);
 }
 
-.nav-link{
+.navbar .navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    /* font-weight: bold !important; */
+}
+
+.navbar .navbar-brand:hover{
+    color:rgb(179, 158, 101) !important;
+}
+
+.navbar .nav-link{
     color: black !important;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    padding-right: 10px !important;
+}
+
+.navbar .nav-link:hover{
+    color:rgb(179, 158, 101) !important;
 }
