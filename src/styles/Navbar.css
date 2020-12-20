@@ -1,14 +1,18 @@
-body {
-    background-color: rgb(255, 255, 255) !important;
-}
-.web-nav {
+
+.navbar {
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.363);
+    background-color: white;
 }
 
 .navbar .navbar-brand{
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
-    /* font-weight: bold !important; */
+}
+
+@media screen and (max-width: 419px) {
+    .navbar .navbar-brand{
+        font-size: 1rem;
+    }
 }
 
 .navbar .navbar-brand:hover{

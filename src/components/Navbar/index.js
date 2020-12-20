@@ -4,7 +4,7 @@ import "../../styles/Navbar.css";
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top web-nav">
+        <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top web-nav container-fluid">
             <NavLink className="navbar-brand " to="/">Islamic Cultural Association</NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
