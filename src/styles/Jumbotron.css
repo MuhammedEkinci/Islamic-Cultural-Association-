@@ -18,10 +18,18 @@
     font-family: 'Playfair Display', serif;
     font-size: 5rem;
     color: white;
+    padding: 10px;
 }
+@media screen and (max-width: 419px) {
+    .jumbotron .display-4 {
+        font-size: 3rem;
+    }
+}
+
 
 .jumbotron p {
     color: white;
+    padding: 10px !important;
 }
 
 .jumbotron button{
