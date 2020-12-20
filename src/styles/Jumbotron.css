@@ -1,5 +1,18 @@
+
 .junmbotron {
     justify-content: center;
     text-align: center;
+    background-image: url("../images/coding.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
     width: 100%;
+    padding: 250px 0 200px 0;
+}
+
+.junmbotron .display-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
 }
