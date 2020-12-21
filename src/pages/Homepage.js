@@ -1,5 +1,5 @@
 import React from "react";
-import FunActivities from "../components/FunActivities";
+import WeeklyMeeting from "../components/WeeklyMeeting";
 import Jumbotron from "../components/Jumbotron";
 import OurMission from "../components/OurMission";
 import QuranDerse from "../components/QuranDerse";
@@ -10,7 +10,7 @@ export default function HomePage() {
             <Jumbotron />
             <OurMission />
             <QuranDerse />
-            <FunActivities />
+            <WeeklyMeeting />
         </div>
     );
 }

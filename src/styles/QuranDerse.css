@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.quran-class .mbr-section-subtitle {
+.section-class .mbr-section-subtitle {
     color: #98aac8;
 }
 
@@ -44,13 +44,13 @@
 }
 
 @media (max-width: 1500px){
-    .quran-class .wrapper {
+    .section-class .wrapper {
         padding: 6rem 4rem;
     }
 }
 
 @media (max-width: 530px){
-    .quran-class  .display-2{
+    .section-class  .display-2{
         font-size: 3rem;
     }
 }
@@ -63,7 +63,7 @@
     margin-bottom: 2rem;
 }
 
-.quran-class .img-col {
+.section-class .img-col {
     padding: 10px;
 }
 
@@ -90,4 +90,18 @@
     font-size: 1.1rem;
     line-height: 1.6;
     color: #999999;
+}
+
+.display-5 {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 2rem;
+}
+
+.section-class .link {
+    padding-left: 10px;
+}
+
+#quran-derse-area {
+    background-color: #f8f8f8;
 }

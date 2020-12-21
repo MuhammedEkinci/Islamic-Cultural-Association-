@@ -1,13 +1,15 @@
 import React from "react";
 import {Container, Row, Col, Carousel} from "react-bootstrap";
 import QuranDersePic from "../../images/quran-derse.png";
+import ActivityPic from "../../images/activity.png";
+import ActivityPic2 from "../../images/pool.png";
 import "../../styles/QuranDerse.css";
 
 export default function QuranDerse() {
 
 
     return (
-        <section className="activities quran-class" id="activity-area">
+        <section className="activities section-class" id="quran-derse-area">
             <Container fluid>
                 <Row>
                     <Col size={12} md={12} lg={6}>
@@ -32,11 +34,25 @@ export default function QuranDerse() {
                     </Col>
                     <Col size={12} md={12} lg={6} className="img-col">
                         <Carousel>
-                            <Carousel.Item interval={1000}>
+                            <Carousel.Item interval={2000}>
                                 <img 
                                     className="d-block w-100"
                                     src={QuranDersePic}
                                     alt="Quran Derse"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval={2000}>
+                                <img 
+                                    className="d-block w-100"
+                                    src={ActivityPic}
+                                    alt="Fun Game"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval={2000}>
+                                <img 
+                                    className="d-block w-100"
+                                    src={ActivityPic2}
+                                    alt="Pool"
                                 />
                             </Carousel.Item>
                         </Carousel>
