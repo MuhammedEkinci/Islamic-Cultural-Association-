@@ -35,6 +35,7 @@
 .jumbotron button{
     border-color: white;
     color: white;
+    border: none;
 }
 
 .jumbotron button:hover{

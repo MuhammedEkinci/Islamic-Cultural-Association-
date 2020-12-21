@@ -6,7 +6,7 @@ import "../../styles/QuranDerse.css";
 export default function OurMission() {
     return (
         <section className="activities" id="our-mission">
-            <Container className>
+            <Container>
                 <Row className="justify-content-center">
                     <h3 className="section-header">Our Mission</h3>
                 </Row>

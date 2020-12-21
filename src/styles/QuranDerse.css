@@ -14,7 +14,8 @@
 
 .mbr-section-subtitle {
     letter-spacing: 0.2rem;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 1.75rem;
 }
 
 .align-left {
@@ -88,7 +89,7 @@
 
 .display-7 {
     font-family: 'Be Vietnam', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.6;
     color: #999999;
 }
@@ -103,11 +104,73 @@
     padding-left: 10px;
 }
 
-#quran-derse-area {
+#weekly-meeting-area{
     background-color: #f8f8f8;
 }
 
 .section-class .bg-image .display-1 {
     font-family: 'Playfair Display', serif;
     font-size: 5rem;
+}
+
+@media (max-width: 1024px){
+    .section-class .bg-image .display-1 {
+        font-size: 3rem;
+    }
+}
+
+.p-3 {
+    padding: 1rem!important;
+}
+
+.section-class .card-wrapper {
+    background-position: center;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box {
+    width: 100%;
+}
+
+.section-class .card-wrapper .mbr-section-subtitle {
+    font-size: 2rem;
+}
+
+.section-class .card-wrapper .display-7 {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 767px) {
+    .card-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-class .card-wrapper .display-7 {
+        font-size: 1rem;
+    }
+}
+
+#contact .btn{
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+#contact .btn:hover{
+    background-color:rgb(179, 158, 101) !important;
+    color: white;
+}
+
+#contact {
+    background-color: #f8f8f8;
+}
+
+html {
+    scroll-behavior: smooth;
 }

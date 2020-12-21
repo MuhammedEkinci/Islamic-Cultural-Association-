@@ -35,7 +35,7 @@ export default function WeeklyMeeting() {
                             </h4>
                             <Alert variant="danger">All our gatherings has been suspended until further notice due to the current pandemic restrictions issued by MD state !</Alert>
                             <div className="text-wrap">
-                            <h4 className="link display-5">
+                                <h4 className="link display-5">
                                     Monday: 
                                     <h5 className="text mbr-black mbr-fonts-style display-7">
                                         Closed
