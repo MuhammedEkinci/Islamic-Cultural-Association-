@@ -1,6 +1,5 @@
 import React from "react";
 import {Container, Row, Col, Alert} from "react-bootstrap";
-import ActivityPic from "../../images/activity.png";
 import "../../styles/QuranDerse.css";
 
 export default function WeeklyMeeting() {
@@ -11,11 +10,20 @@ export default function WeeklyMeeting() {
             <Container fluid>
                 <Row>
                     <Col size={12} md={12} lg={6} className="img-col">
-                        <img 
-                            className="d-block w-100"
-                            src={ActivityPic}
-                            alt="Fun Game"
-                        />
+                        {/* used MDB to give image hover effect*/}
+                        <div className="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                            <img className="d-block w-100" src="https://news-network.rice.edu/news/files/2020/07/98448681_l.jpg" alt="Fun Game" />
+                            <a href="https://www.muslimpro.com/tr/find?country_code=US&country_name=United%20States&state=MD&city_name=Elkton&coordinates=39.60677889999999,-75.83327179999999" target="_blank">
+                                <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.4)"}}>
+                                    <div className="d-flex justify-content-center align-items-center h-100">
+                                        <p className="text-white display-1">Prayer Times</p>
+                                    </div>
+                                </div>
+                                <div className="hover-overlay">
+                                    <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.2)"}}></div>
+                                </div>
+                            </a>
+                        </div>
                     </Col>
                     <Col size={12} md={12} lg={6}>
                         <div className="wrapper">

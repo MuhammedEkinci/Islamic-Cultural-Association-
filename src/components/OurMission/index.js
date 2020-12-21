@@ -8,7 +8,7 @@ export default function OurMission() {
         <section className="activities" id="our-mission">
             <Container className>
                 <Row className="justify-content-center">
-                        <h3 className="section-header">Our Mission</h3>
+                    <h3 className="section-header">Our Mission</h3>
                 </Row>
                 <Row className="justify-content-center">
                     <Col md={12} lg={4}>

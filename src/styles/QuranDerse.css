@@ -71,6 +71,7 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: 5rem;
     padding-bottom: 2rem;
+    text-align: center;
 }
 
 @media (max-width: 530px){
@@ -104,4 +105,9 @@
 
 #quran-derse-area {
     background-color: #f8f8f8;
+}
+
+.section-class .bg-image .display-1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
 }
