@@ -1,22 +1,41 @@
 import React from "react";
 import {Container, Row, Col, Carousel} from "react-bootstrap";
-import QuranDersePic from "../../images/quran-derse.png";
+import ActivityPic from "../../images/activity.png";
+import ActivityPic2 from "../../images/pool.png";
 import "../../styles/QuranDerse.css";
 
-export default function QuranDerse() {
+export default function FunActivities() {
 
 
     return (
         <section className="activities quran-class" id="activity-area">
             <Container fluid>
                 <Row>
+                    <Col size={12} md={12} lg={6} className="img-col">
+                        <Carousel>
+                            <Carousel.Item interval={1000}>
+                                <img 
+                                    className="d-block w-100"
+                                    src={ActivityPic}
+                                    alt="Fun Game"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval={1000}>
+                                <img 
+                                    className="d-block w-100"
+                                    src={ActivityPic2}
+                                    alt="Pool Picture"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                    </Col>
                     <Col size={12} md={12} lg={6}>
                         <div className="wrapper">
                             <h3 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style section-title">
-                                Classes
+                                Activities 
                             </h3>
                             <h4 className="card-title mbr-bold pb-3 align-left mbr-white mbr-fonts-style display-2">
-                                Quran Class
+                                Fun Activities
                             </h4>
                             <div className="text-wrap">
                                 <h5 className="text mbr-black mbr-fonts-style display-7">
@@ -29,17 +48,6 @@ export default function QuranDerse() {
                                 </h5>
                             </div>
                         </div>
-                    </Col>
-                    <Col size={12} md={12} lg={6} className="img-col">
-                        <Carousel>
-                            <Carousel.Item interval={1000}>
-                                <img 
-                                    className="d-block w-100"
-                                    src={QuranDersePic}
-                                    alt="Quran Derse"
-                                />
-                            </Carousel.Item>
-                        </Carousel>
                     </Col>
                 </Row>
             </Container>
