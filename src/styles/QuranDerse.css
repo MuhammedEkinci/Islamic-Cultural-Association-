@@ -1,0 +1,68 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.quran-class .mbr-section-subtitle {
+    color: #98aac8;
+}
+
+.section-title {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.mbr-section-subtitle {
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.display-2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    line-height: 1.1;
+}
+.mbr-bold {
+    font-weight: 400;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+.activities {
+    padding-top: 75px;
+    padding-bottom: 0px;
+}
+
+@media (max-width: 1500px){
+    .quran-class .wrapper {
+        padding: 6rem 4rem;
+    }
+}
+
+@media (max-width: 530px){
+    .quran-class  .display-2{
+        font-size: 3rem;
+    }
+}
+
+.activities .text-wrap {
+    color: #999999;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.quran-class .img-col {
+    padding: 0;
+}

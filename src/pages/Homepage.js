@@ -1,12 +1,12 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
-import KuranDerse from "../components/KuranDerse";
+import QuranDerse from "../components/QuranDerse";
 
 export default function HomePage() {
     return (
         <div>
             <Jumbotron />
-            <KuranDerse />
+            <QuranDerse />
         </div>
     );
 }
