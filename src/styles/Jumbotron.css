@@ -32,12 +32,12 @@
     padding: 10px !important;
 }
 
-.jumbotron button{
+.jumbotron a{
     border-color: white;
     color: white;
     border: none;
 }
 
-.jumbotron button:hover{
+.jumbotron a:hover{
     background-color:rgb(179, 158, 101) !important;
 }

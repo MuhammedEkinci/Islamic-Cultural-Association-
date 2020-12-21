@@ -9,7 +9,7 @@ export default function Jumbotron() {
                 <p className="lead">
                     EMiCC is an İslamic Community Center That Serves The Elkton \ Delaware Community with religious services
                 </p>
-                <button className="btn btn-outline-dark btn-lg" href="#" role="button">Learn more</button>
+                <a className="btn btn-dark btn-lg" href="#our-mission" role="button">Learn more</a>
         </div>
     );
 }
