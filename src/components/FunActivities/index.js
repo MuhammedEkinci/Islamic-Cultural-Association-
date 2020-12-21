@@ -24,7 +24,7 @@ export default function FunActivities() {
                                 <img 
                                     className="d-block w-100"
                                     src={ActivityPic2}
-                                    alt="Pool Picture"
+                                    alt="Pool"
                                 />
                             </Carousel.Item>
                         </Carousel>
