@@ -6,7 +6,9 @@ export default function Footer() {
     return (
         <section className="section-class" id="footer">
             <div className="footer-content">
-                <i className="fab fa-facebook"></i>
+                <a href="https://www.facebook.com/emiccenter" target="_blank">
+                    <span><i className="fab fa-facebook"></i></span>
+                </a>
                 <br></br>
                 <span className="hr"></span>
                 <br></br>
