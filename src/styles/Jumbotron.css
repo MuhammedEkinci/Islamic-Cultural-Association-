@@ -5,7 +5,7 @@
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
-      ), url("../images/coding.jpeg");
+      ), url("../images/mosque-pic.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,6 +30,8 @@
 .jumbotron p {
     color: white;
     padding: 10px !important;
+    font-size: 1.75rem;
+    font-weight: 50px;
 }
 
 .jumbotron a{
