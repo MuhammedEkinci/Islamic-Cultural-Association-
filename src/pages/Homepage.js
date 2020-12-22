@@ -4,6 +4,7 @@ import Jumbotron from "../components/Jumbotron";
 import OurMission from "../components/OurMission";
 import QuranDerse from "../components/QuranDerse";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function HomePage() {
     return (
@@ -13,6 +14,7 @@ export default function HomePage() {
             <WeeklyMeeting />
             <QuranDerse />
             <Contact />
+            <Footer />
         </div>
     );
 }
