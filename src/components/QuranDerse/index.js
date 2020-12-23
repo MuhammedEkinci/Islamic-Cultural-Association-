@@ -22,12 +22,8 @@ export default function QuranDerse() {
                             </h4>
                             <div className="text-wrap">
                                 <h5 className="text mbr-black mbr-fonts-style display-7">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    We offer Islamic educational and training opportunities to the community to
+                                    increase knowledge, enhance character, and develop values to become Muslims who benefit society. We also hold Quran classes during the weekends
                                 </h5>
                             </div>
                         </div>
