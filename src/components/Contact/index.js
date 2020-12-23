@@ -27,7 +27,7 @@ export default function Contact() {
                                 <h4 className="link display-5 align-left">
                                     Phone:
                                     <h5 className="text mbr-black mbr-fonts-style display-7">
-                                        888-888-8888
+                                        1 302-740-8034
                                     </h5>
                                 </h4>
                                 <h4 className="link display-5 align-left">
