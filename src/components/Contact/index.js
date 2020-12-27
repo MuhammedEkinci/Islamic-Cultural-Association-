@@ -46,7 +46,7 @@ export default function Contact() {
                                     Contact Us
                                 </h3>
                                 <Container className="form">
-                                    <form id="contact-form" method="POST" action="https://formspree.io/f/xrgoqaoq">
+                                    <form id="contact-form" method="POST" action="https://formspree.io/f/mbjppaaz">
                                         <Row>
                                             <Col size="md-6">
                                                 <div class="form-group">

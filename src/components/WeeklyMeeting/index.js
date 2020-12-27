@@ -12,7 +12,7 @@ export default function WeeklyMeeting() {
                     <Col size={12} md={12} lg={6} className="img-col">
                         {/* used MDB to give image hover effect*/}
                         <div className="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
-                            <img className="d-block w-100" src="https://news-network.rice.edu/news/files/2020/07/98448681_l.jpg" alt="Fun Game" />
+                            <img className="d-block w-100 img" src="https://news-network.rice.edu/news/files/2020/07/98448681_l.jpg" alt="Fun Game" />
                             <a href="https://www.muslimpro.com/tr/find?country_code=US&country_name=United%20States&state=MD&city_name=Elkton&coordinates=39.60677889999999,-75.83327179999999" target="_blank">
                                 <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.4)"}}>
                                     <div className="d-flex justify-content-center align-items-center h-100">

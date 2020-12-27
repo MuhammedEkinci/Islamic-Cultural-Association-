@@ -5,7 +5,7 @@
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
-      ), url("../images/mosque-pic.png");
+      ), url("../images/mosque-front.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +19,7 @@
     font-size: 5rem;
     color: white;
     padding: 10px;
+    text-shadow: 2px 2px #333;
 }
 @media screen and (max-width: 419px) {
     .jumbotron .display-4 {
@@ -32,6 +33,7 @@
     padding: 10px !important;
     font-size: 1.75rem;
     font-weight: 50px;
+    text-shadow: 2px 2px #333;
 }
 
 .jumbotron a{
